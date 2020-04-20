@@ -242,5 +242,5 @@ def most_points_scored
   }
   most_player
 end
-    
+
   }
