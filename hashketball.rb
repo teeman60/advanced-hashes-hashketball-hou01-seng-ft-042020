@@ -232,7 +232,7 @@ end
 def most_points_scored
   most_player = ""
   most_points = 0
-  game_hash.map { |team, team_data| 
+  game_hash.map { |team, team_data|
     team_data[:players].map do |player|
       if player[:points] >= most_points
         most_points = player[:points]
